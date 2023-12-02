@@ -1,2 +1,4 @@
 build/
 .rgignore
+.cache/
+compile_commands.json
