@@ -19,7 +19,6 @@ add_subdirectory(deps)
 
 target_link_libraries(${EXEC_NAME} glad)
 
-find_package(glfw3 REQUIRED)
 target_link_libraries(${EXEC_NAME}
 	glfw
 	)
